@@ -4,7 +4,6 @@ void main() {
   runApp(MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -13,7 +12,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -28,7 +26,6 @@ class _MyHomePageState extends State<MyHomePage> {
       _message = 'Você pressionou o botão!';
     });
   }
-
   
   @override
   Widget build(BuildContext context) {
